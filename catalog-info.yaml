@@ -3,5 +3,7 @@ kind: System
 metadata:
   name: bookinfo
   description: bookinfo system
+  annotations:
+    'backstage.io/kubernetes-id': bookinfo
 spec:
   owner: group:default/backstage-admins
